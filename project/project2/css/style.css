@@ -1,0 +1,378 @@
+    #i {
+        width: 40px;
+        height: 40px;
+        font-size: 26px;
+        display: inline-block;
+        background-color: green;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+    /* ----------------------------hero section-------------------------- */
+    
+    .hero {
+        min-height: 400px;
+        background-size: cover;
+        position: relative;
+        background-image: url(../images/heroSection.jpg);
+    }
+    
+    .hero img {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+        opacity: .5;
+    }
+    
+    .hero::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+    
+    .hero h1 {
+        font-size: 27px;
+        color: antiquewhite;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+    
+    .hero h2 {
+        font-size: 50px;
+        color: #fff;
+        display: block;
+        font-weight: 500;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .row {
+        position: relative;
+        display: flex;
+        z-index: 1;
+    }
+    
+    .col {
+        width: 100%;
+    }
+    
+    .img-responsive {
+        display: inline-block;
+        max-width: 100%;
+        opacity: .6;
+    }
+    
+    .main-content {
+        margin: 8rem auto !important;
+        max-width: 600px;
+        padding: 2rem;
+        text-align: left;
+        border-radius: .5rem;
+    }
+    
+    .hero p {
+        line-height: 1.35rem;
+        color: #fff;
+        margin-bottom: 3rem;
+    }
+    /* --------------------------card section----------------------  */
+    
+    .cards {
+        max-width: 51rem;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 20%);
+        padding-top: 6rem;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        margin-top: -3rem;
+        background: #eee;
+    }
+    
+    .up .cards p {
+        margin-top: -5rem;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: -2rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    /* ------------------------cards group---------------------------- */
+    
+    .dis {
+        margin-top: 5rem;
+    }
+    
+    .dis h6 {
+        color: #666;
+        margin-bottom: 3rem;
+    }
+    
+    #btn-cards {
+        width: 15rem;
+        height: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .service h1 {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .service .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 1.25rem;
+        overflow: hidden;
+    }
+    /* <!-- --------------------------Modular Program---------------- --> */
+    
+    .cardss {
+        margin-top: 3rem;
+    }
+    /* <!-- -----------------------------multiple cards-------------------- --> */
+    
+    .cardss .card {
+        box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 20%);
+    }
+    /* <!-- -------------------------WHY join ACS---------------------------- --> */
+    
+    .acs {
+        min-height: 600px;
+        background-image: url(../images/imagesinternet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 3rem;
+    }
+    
+    .acs h3 {
+        border-right: 2px dashed burlywood;
+    }
+    
+    .acs h3 span img {
+        width: 100%;
+    }
+    /* <!-- -----------------------------Player Section------------------------- --> */
+    
+    .player {
+        background: #f7fbfc;
+    }
+    
+    .player .cardss {
+        max-width: 70rem;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 16px 0 rgb(0 0 0 / 30%);
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        margin-top: -13rem;
+        background: #EEE;
+        border-radius: 5px;
+        border: 1px solid #c6c6c6;
+    }
+    
+    .player .cardss h3 {
+        padding: 1rem 2rem 1rem 2rem
+    }
+    
+    .player .cardss h4 {
+        font-size: 20px;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+    
+    .player .aw {
+        padding-top: 7rem;
+    }
+    
+    .player .aq {
+        max-width: 36rem;
+        width: 100%;
+    }
+    
+    .player .aw h1 {
+        display: block;
+        font-size: 67px;
+        font-weight: 500;
+    }
+    
+    .player .aw h1 span img {
+        width: 100%;
+    }
+    
+    .player .aw h4 {
+        margin-left: 57%;
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    #btn-second {
+        margin-bottom: 3rem;
+        width: 11rem;
+        background: orange;
+        border: none;
+    }
+    /* <!-- ---------------------MEET OUR TOP INSTRUCTORS----------- --> */
+    
+    .carousel .container {
+        box-shadow: 0px 0px 20px 0 rgb(0 0 0 /20%);
+    }
+    
+    .meet {
+        margin-bottom: 2rem;
+    }
+    
+    .multiple {
+        margin-top: 2.5rem;
+    }
+    
+    .carousel .p1 {
+        margin-top: 1rem;
+    }
+    
+    .carousel p {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 2rem;
+    }
+    
+    #third {
+        margin-bottom: 2rem;
+    }
+    
+    .link {
+        font-size: 18px;
+    }
+    
+    .icons {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    /* ------------------------Multiple Clients----------- */
+    
+    .multiple {
+        margin-bottom: 2rem;
+    }
+    
+    .multi {
+        margin-bottom: 2rem;
+    }
+    /* ----------------------------Apply for demo-------------------- */
+    
+    .demo .container {
+        border: 1px solid green;
+        position: relative;
+        margin-bottom: -2.7rem;
+        background: #2196f3;
+        padding-top: 0.4rem;
+    }
+    
+    .demo h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .text {
+        color: #fff;
+    }
+    
+    #btn-demo {
+        margin-top: 1.3rem;
+    }
+    /* -------------------------------Footer Section-------------------- */
+    
+    footer {
+        padding: 4rem;
+    }
+    /* -----------------------Media Query-------------- */
+    /* -----------------Cards Section--------------- */
+    
+    @media(min-width:320px) and (max-width:400px) {
+        #card-group {
+            margin-top: 32px;
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:550px) and (max-width:767px) {
+        #card-group {
+            margin-top: 80px;
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:767px) and (max-width:991px) {
+        #card-group {
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:400px) and (max-width:550px) {
+        #card-group {
+            margin-top: 73px;
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:992px) {
+        #card-group {
+            margin-top: 30px;
+            color: #fff;
+        }
+    }
+    /* ----------------Modular Section-------------------- */
+    
+    @media(min-width:320px) and (max-width:400px) {
+        #modularCard {
+            margin-top: 1rem;
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:550px) and (max-width:767px) {
+        #modularCard {
+            margin-top: 3rem;
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:767px) and (max-width:991px) {
+        #modularCard {
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:400px) and (max-width:550px) {
+        #modularCard {
+            margin-top: 2rem;
+            color: #fff;
+        }
+    }
+    
+    @media(min-width:992px) {
+        #modularCard {
+            margin-top: 1rem;
+            color: #fff;
+        }
+    }

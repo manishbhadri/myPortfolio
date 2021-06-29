@@ -1,0 +1,40 @@
+body,
+html {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #656565;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    padding: 11px 20px;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.3s ease-in;
+}
+
+nav ul a.active,
+nav ul a:hover,
+nav ul a:focus {
+    background-color: hsl(188, 89%, 50%);
+    color: #000;
+}

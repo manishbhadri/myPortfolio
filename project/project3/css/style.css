@@ -1,0 +1,163 @@
+  /* ------------------------header Section--------------------------- */
+  
+  .navbar {
+      width: 100%;
+      position: absolute;
+      z-index: 7;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, .55);
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+      color: rgba(255, 255, 255);
+  }
+  
+  .downbtn {
+      margin-left: auto;
+  }
+  
+  .navbar-expand-xxl .navbar-nav {
+      flex-direction: column;
+  }
+  /* ------------------Hero Section----------------- */
+  
+  .hero {
+      min-height: 530px;
+      background-size: cover;
+      position: relative;
+  }
+  
+  .hero img {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+  }
+  
+  .main {
+      margin-top: 10rem;
+      margin-bottom: 6rem;
+  }
+  
+  .main h1 {
+      color: #fff;
+      /* font-size: 74px; */
+      font-weight: bold;
+      margin-bottom: 1rem;
+  }
+  
+  .main p {
+      color: #fff;
+      font-weight: 500;
+  }
+  
+  .main-content {
+      margin-top: 12rem;
+      position: relative;
+  }
+  
+  .main-content h1 {
+      font-size: 6rem;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: -11px;
+  }
+  
+  .main-content::after {
+      content: "02";
+      top: -23px;
+      position: absolute;
+      left: 5rem;
+      font-size: 2rem;
+      color: #fff;
+      font-weight: 700;
+      opacity: 0.3;
+  }
+  /* --------------------Cards section-------------- */
+  
+  .divider {
+      margin-top: 1.5rem;
+  }
+  
+  .mains {
+      margin-top: -21px;
+      font-size: 4rem;
+      color: #fff;
+  }
+  
+  #mais {
+      width: 100%;
+      height: 8rem;
+  }
+  
+  #img {
+      height: 9.5rem;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+  }
+  
+  .content h1 {
+      font-weight: bold;
+      color: #361613;
+      letter-spacing: -2px;
+      word-spacing: 6px;
+      margin-bottom: 0px;
+  }
+  
+  .content h5 {
+      font-size: 18px;
+  }
+  
+  .content h5 span {
+      color: #c2c3c4;
+  }
+  
+  .dis i {
+      margin-top: 3rem;
+      font-size: 4rem;
+      color: #fff;
+  }
+  
+  #as {
+      background-color: #F92815;
+  }
+  
+  #aq {
+      background-color: #fff;
+  }
+  
+  #tei {
+      width: 100%;
+      height: 7rem;
+  }
+  
+  .content h6 {
+      margin-top: 2rem;
+      font-weight: 800;
+  }
+  /* -------------------------Media Query----------------------------- */
+  
+  @media (min-width:320px) and (max-width:675px) {
+      .hero .main-content {
+          margin-top: 0rem;
+          position: relative;
+      }
+  }
+  
+  @media (min-width:576px) and (max-width:650px) {
+      .hero .main-content::after {
+          content: "02";
+          top: -23px;
+          position: absolute;
+          left: 2rem;
+          font-size: 2rem;
+          color: #fff;
+          font-weight: 700;
+          opacity: 0.3;
+      }
+  }

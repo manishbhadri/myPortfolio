@@ -1,0 +1,352 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 8;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-nav {
+    flex-wrap: wrap;
+}
+
+.navbar .nav-item .dropdown-menu {
+    display: none;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    color: plum;
+}
+
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+    color: plum;
+}
+
+#logo {
+    width: 3rem;
+}
+
+
+/* -------------------Hero Section------------------------ */
+
+.hero {
+    background-color: #0B0C2A;
+    border-radius: 0px 0px 0px 6rem;
+}
+
+.hero h1 span {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.main {
+    padding: 5rem 4rem;
+    margin-top: 11rem;
+    margin-bottom: 3rem;
+}
+
+#play {
+    margin-left: 1rem;
+    font-size: 26px;
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+#plays {
+    margin-left: 1rem;
+    font-size: 17px;
+    color: #fff;
+}
+
+.hero .main-content {
+    height: 100%;
+    min-height: 20rem;
+    border-radius: 0px 0px 0px 6rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+
+#btn-1 {
+    border-radius: 30px;
+}
+
+
+/*  <!-- -----------------cards Section-------------------- -->*/
+
+.cards {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+/* <!-- -------------Text Heading-------------------- --> */
+
+.heading .main-content {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.heading h3 {
+    font-weight: 900;
+}
+
+.heading {
+    position: relative;
+}
+
+.heading::after {
+    top: -73px;
+    content: "SERVICES";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    opacity: .07;
+    font-size: 102px;
+    font-weight: bold;
+}
+
+
+/* ------------------Multiple cards---------------------- */
+
+.multiple {
+    position: relative;
+}
+
+.multiple::before {
+    content: "";
+    width: calc(100% - 2rem);
+    background: #fff;
+    height: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.multiple .card {
+    border: none;
+    transition: all .3s ease-in-out;
+    border-radius: 2rem;
+    background: transparent;
+}
+
+.multiple .card .card-body {
+    padding: 2rem;
+}
+
+.multiple .card-body #fa {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.multiple .card h4 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.multiple .card p {
+    color: #000;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.multiple .card:hover {
+    background: rgb(4, 62, 169);
+    background: linear-gradient(38deg, rgba(4, 62, 169, 1) 0%, rgba(1, 114, 249, 1) 100%);
+}
+
+.multiple .card:hover p,
+.multiple .card:hover #fa,
+.multiple .card:hover h4 {
+    color: #fff;
+}
+
+
+/* ------------------Information Section------------------ */
+
+.information {
+    margin-top: 5rem;
+}
+
+.information .main-content {
+    padding: 1rem 0rem;
+    margin-left: 1rem;
+}
+
+.info {
+    height: 100%;
+    width: 100%;
+    min-height: 23rem;
+    border-radius: 41px 41px 41px 41px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.information h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.information h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.dis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information .main-content {
+    position: relative;
+}
+
+.information .main-content::after {
+    top: -73px;
+    content: "ABOUT US";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    opacity: .07;
+    font-size: 102px;
+    font-weight: bold;
+}
+
+
+/* ------------------------Client Section----------------------------------- */
+
+.client {
+    border-radius: 0 0 0 4rem;
+    margin-top: 5rem;
+    background: #0B0C2A;
+}
+
+.client .main-content {
+    padding: 3rem 5rem;
+}
+
+.client h3 {
+    font-weight: 900;
+    word-spacing: 4px;
+}
+
+.client h3 span {
+    display: block;
+}
+
+.workImg {
+    height: 100%;
+    width: 100%;
+    min-height: 23rem;
+    border-radius: 41px 41px 41px 41px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 1rem;
+    background: #333;
+    border-radius: 50%;
+}
+
+.root {
+    display: flex;
+}
+
+#name {
+    display: block;
+}
+
+#company {
+    display: block;
+}
+
+
+/* --------------------Multi Section-------------- */
+
+.multi {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.multi::after {
+    top: -88px;
+    content: "BLOG";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    opacity: .07;
+    font-size: 102px;
+    font-weight: bold;
+}
+
+.multi h3 {
+    font-weight: 900;
+}
+
+#btnId {
+    margin-bottom: 3rem;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+#btnpri {
+    border: 1px solid #000;
+}
+
+
+/* <!-- ------------------MultiCards Heading section --> */
+
+.multiCards {
+    margin-bottom: 3rem;
+}
+
+.multiCards h5 {
+    font-weight: bold;
+}
+
+
+/* --------------------------Footer Section---------------- */
+
+footer {
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+footer .icon {
+    font-size: 2rem;
+}
+
+footer p {
+    color: #d3d3d3;
+}
+
+input {
+    border-radius: 30px;
+}

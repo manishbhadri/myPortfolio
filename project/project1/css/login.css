@@ -1,0 +1,33 @@
+body {
+    background-color: powderblue;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+form {
+    padding: 3rem 30rem;
+}
+
+.forget {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.forget a {
+    color: #000;
+    text-decoration: none;
+}
+
+.account {
+    text-align: center;
+    font-size: 18px;
+}
+
+.account a {
+    color: #000;
+    text-decoration: none;
+}

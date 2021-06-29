@@ -1,0 +1,382 @@
+ /* -----------------.about section--------------- */
+ 
+ .logo {
+     margin-left: 2rem;
+     margin-top: 1rem;
+ }
+ 
+ .about {
+     min-height: 400px;
+     position: relative;
+     background-size: cover;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .about .main-content img {
+     width: 100%;
+     min-width: 32rem;
+ }
+ 
+ .about::after {
+     width: 100%;
+     height: 100%;
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 0;
+ }
+ 
+ .about h1 {
+     font-size: 70px;
+     display: block;
+     color: #000;
+     margin-bottom: 3rem;
+     margin-top: 5rem;
+ }
+ 
+ .about .row {
+     display: flex;
+     z-index: 1;
+     position: relative;
+ }
+ 
+ .col {
+     width: 100%;
+ }
+ 
+ .about .img-responsive {
+     max-width: 100%;
+     display: inline-block;
+ }
+ 
+ .about .main-content {
+     margin: auto !important;
+     text-align: center;
+     padding: 2rem;
+     max-height: 600px;
+     border-radius: .5rem;
+ }
+ 
+ .about p {
+     line-height: 1.75rem;
+     color: #666;
+     font-size: 20px;
+     margin-bottom: 2rem;
+     padding-left: 5rem;
+     text-align: justify;
+ }
+ 
+ #btn5 {
+     width: 10rem;
+     height: 3rem;
+     font-size: 20px;
+     border-radius: 30px;
+     background: #000;
+     color: #fff;
+ }
+ 
+ #btn5.active,
+ #btn5:hover {
+     background: #0ED1F0;
+     color: #fff;
+ }
+ /*---------------------Concerts-------------------- */
+ 
+ .Concerts {
+     min-height: 400px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .Concerts img {
+     min-width: 38rem;
+     width: 100%;
+ }
+ 
+ .Concerts::after {
+     width: 100%;
+     height: 100%;
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 0;
+ }
+ 
+ .Concerts h1 {
+     font-size: 70px;
+     line-height: 4rem;
+     margin-bottom: 1rem;
+     padding: 1rem 1rem;
+ }
+ 
+ .Concerts .row {
+     display: flex;
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .Concerts .col {
+     width: 100%;
+ }
+ 
+ .img-responsive {
+     display: inline-block;
+     max-width: 100%;
+ }
+ 
+ .Concerts .main-content {
+     margin: auto !important;
+     padding: 2rem;
+     max-height: 600px;
+     text-align: center;
+     border-radius: .5rem;
+ }
+ 
+ .Concerts p {
+     line-height: 1.75rem;
+     color: #666;
+     font-size: 18px;
+     padding: 1rem 3rem;
+     margin-bottom: 2rem;
+     text-align: justify;
+ }
+ 
+ #btn6 {
+     width: 10rem;
+     height: 3rem;
+     font-size: 20px;
+     border-radius: 30px;
+     background: #000;
+     color: #fff;
+ }
+ 
+ #btn6.active,
+ #btn6:hover {
+     background: #0ED1F0;
+     color: #fff;
+ }
+ /* ----------------Gallary------------------- */
+ 
+ .gallary {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .cards {
+     max-width: 600px;
+     padding: 1rem;
+     text-align: center;
+     margin: 1rem 0;
+     border-radius: .5rem;
+ }
+ 
+ .cards h1 {
+     font-size: 70px;
+     color: #000;
+     margin-bottom: 4rem;
+     line-height: 4rem;
+ }
+ 
+ .cards p {
+     line-height: 2rem;
+     font-size: 20px;
+     margin-bottom: 2rem;
+ }
+ 
+ #btn8 {
+     width: 10rem;
+     height: 3rem;
+     font-size: 20px;
+     border-radius: 30px;
+     background: #000;
+     color: #fff;
+ }
+ 
+ #btn8.active,
+ #btn8:hover {
+     background: #0ED1F0;
+     color: #fff;
+ }
+ /* icons */
+ /* ----------------------Footer Section--------------- */
+ 
+ .foo {
+     background-image: url(../imge/max-saeling-m8nRxnGFWVc-unsplash.jpg);
+     position: relative;
+ }
+ 
+ .foo::after {
+     background: rgba(2, 2, 2, 0.6);
+ }
+ 
+ .form {
+     border-bottom: 2px solid rgb(165, 164, 164);
+     text-align: center;
+ }
+ 
+ .contact {
+     text-align: center;
+     font-size: 70px;
+     margin-bottom: 2rem;
+     color: #fff;
+     padding-top: 5rem;
+     font-weight: unset;
+ }
+ 
+ .input {
+     width: 41rem;
+     height: 2rem;
+     border-radius: 3px;
+ }
+ 
+ .input1 {
+     width: 41rem;
+     height: 4rem;
+     margin-bottom: 2rem;
+     border-radius: 3px;
+ }
+ 
+ #btn9 {
+     width: 10rem;
+     height: 3rem;
+     font-size: 24px;
+     border-radius: 30px;
+     margin-bottom: 4rem;
+ }
+ 
+ #btn9.active,
+ #btn9:hover {
+     background: #0ED1F0;
+     color: #fff;
+ }
+ 
+ .new {
+     border-bottom: 1px solid rgb(165, 164, 164);
+ }
+ 
+ .news {
+     font-size: 23px;
+     margin-top: 2rem;
+     text-align: start;
+     margin-left: 16rem;
+     margin-bottom: 1rem;
+     color: #fff;
+ }
+ 
+ .subs {
+     justify-content: center;
+     display: flex;
+ }
+ 
+ .subscribe {
+     width: 40rem;
+     height: 2.5rem;
+     border: none;
+ }
+ 
+ #btn10 {
+     width: 7rem;
+     height: 2.6rem;
+     background: #0ED1F0;
+     border: none;
+     font-weight: bold;
+ }
+ 
+ #btn10.active,
+ #btn10:hover {
+     background: #ECECEC;
+     color: #0ED1F0;
+ }
+ 
+ .icon {
+     font-size: 23px;
+     text-align: center;
+     color: #fff;
+     margin-top: 2rem;
+ }
+ 
+ .icon a {
+     margin: 1rem;
+     font-size: 20px;
+     color: #fff;
+ }
+ 
+ .icons {
+     text-align: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+ }
+ 
+ .pic {
+     width: 50px;
+     height: 50px;
+     background-color: #0ED1F0;
+     display: inline-block;
+     margin-right: 1rem;
+     border-radius: 50%;
+ }
+ 
+ .icons i {
+     font-size: 25px;
+     margin-top: 1rem;
+     color: #000;
+ }
+ 
+ .icons i.active,
+ .icons i:hover {
+     color: #fff;
+ }
+ 
+ .paras {
+     margin-top: 1rem;
+     padding-bottom: 1rem;
+     text-align: center;
+     text-decoration: none;
+     list-style-type: none;
+     color: #fff;
+     font-size: 20px;
+ }
+ /* ----------------------Tabs Open------------------- */
+ 
+ .gallaryTab {
+     background-color: #0ED1F0;
+     font-size: 5rem;
+     margin-top: 0rem;
+     padding: 1rem;
+     text-align: center;
+     font-weight: 100;
+ }
+ 
+ .aboutTab {
+     background-color: #0ED1F0;
+     font-size: 5rem;
+     margin-top: 0rem;
+     padding: 1rem;
+     text-align: center;
+     font-weight: 100;
+ }
+ 
+ .upConcerts {
+     background-color: #0ED1F0;
+     font-size: 4rem;
+     margin-top: 0rem;
+     padding: 1rem;
+     text-align: center;
+     font-weight: 100;
+ }
+ 
+ .contactUs {
+     background-color: #0ED1F0;
+     font-size: 5rem;
+     margin-top: 0rem;
+     padding: 1rem;
+     text-align: center;
+     font-weight: 100;
+ }

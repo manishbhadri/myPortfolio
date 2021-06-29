@@ -1,0 +1,121 @@
+.hero {
+    background-image: url(../img/IMG-20210114-WA0004.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 58rem;
+}
+
+.hero img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 100%);
+}
+
+.hero .main-content {
+    margin-top: 20rem;
+    display: inline-block;
+    background: rgba(0, 0, 0, 8%);
+    color: #fff;
+}
+
+
+/* ------------------about section------------------ */
+
+.about {
+    margin-top: 4rem;
+}
+
+.about img {
+    width: 100%;
+}
+
+#heading1 h1 {
+    margin-bottom: 3rem;
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.about .ui {
+    color: #666;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.about h5 span {
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.about p {
+    margin-top: 3rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.skill {
+    margin-top: 4rem;
+}
+
+#heading2 h1 {
+    margin-bottom: 3rem;
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.skill h5 {
+    margin-top: 2rem;
+}
+
+
+/* --------------------Portfolio Section-------------- */
+
+.portfolio {
+    margin-top: 4rem;
+}
+
+
+/* .portfolio img {
+    width: 100%;
+} */
+
+#heading3 h1 {
+    margin-bottom: 3rem;
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+
+/* -----------------Footer Section------------- */
+
+footer {
+    margin-top: 4rem;
+    background: #F7F8F9;
+    padding: 2rem 2rem;
+    line-height: 3rem;
+}
+
+footer h1 {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+footer h5 span {
+    font-weight: 400;
+}

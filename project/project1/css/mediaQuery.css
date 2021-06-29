@@ -1,0 +1,410 @@
+    /*---------------------Media Query------------------ */
+    
+    @media (min-width:320px) and (max-width:392px) {
+        header {
+            background-color: #000;
+            flex-direction: column;
+        }
+        .logo {
+            text-align: center;
+        }
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .hero {
+            padding-top: 7rem;
+            flex-direction: column;
+        }
+        .hero p {
+            text-align: center;
+            padding: 0;
+        }
+        #btn3 {
+            margin-top: 1rem;
+        }
+        #btn4 {
+            margin-top: 1rem;
+        }
+        .about {
+            flex-direction: column;
+        }
+        .about .main-content img {
+            width: 80%;
+            min-width: 0rem;
+        }
+        .about p {
+            padding-left: 0rem;
+        }
+        #btn5 {
+            margin-right: 0rem;
+        }
+        .Concerts {
+            flex-direction: column;
+        }
+        .Concerts p {
+            line-height: 1.75rem;
+            color: #333;
+            font-size: 18px;
+            padding: 1rem 1rem;
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        #btn6 {
+            margin-right: 0rem;
+        }
+        .Concerts .main-content img {
+            width: 100%;
+            min-width: 0rem;
+            margin-top: 17rem;
+        }
+        .gallary {
+            flex-direction: column;
+            margin-top: 4rem;
+        }
+        .gallary img {
+            width: 100%;
+        }
+        footer {
+            flex-direction: column;
+        }
+        footer .input {
+            width: 17rem;
+        }
+        footer .input1 {
+            width: 17rem;
+        }
+        footer .icon {
+            font-size: 26px;
+            text-align: center;
+            color: #fff;
+            margin-top: 2rem;
+            line-height: 3rem;
+        }
+        .news {
+            font-size: 23px;
+            margin-top: 2rem;
+            text-align: start;
+            margin-left: 0rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .subs {
+            flex-direction: column;
+        }
+        .subscribe {
+            width: 18rem;
+            height: 2.5rem;
+            border: none;
+            margin-left: 6px;
+        }
+        #btn10 {
+            margin-left: 6rem;
+            margin-top: 1rem;
+        }
+    }
+    
+    @media(min-width:392px) and (max-width:500px) {
+        header {
+            background-color: #000;
+            flex-direction: column;
+        }
+        .logo {
+            text-align: center;
+        }
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .hero {
+            padding-top: 7rem;
+            flex-direction: column;
+        }
+        .hero p {
+            text-align: center;
+            padding: 0;
+        }
+        #btn3 {
+            margin-top: 1rem;
+        }
+        #btn4 {
+            margin-top: 1rem;
+        }
+        .about {
+            flex-direction: column;
+        }
+        .about .main-content img {
+            width: 80%;
+            min-width: 0rem;
+        }
+        .about p {
+            padding-left: 0rem;
+        }
+        #btn5 {
+            margin-right: 0rem;
+        }
+        .Concerts {
+            flex-direction: column;
+        }
+        .Concerts p {
+            padding-left: 0rem;
+        }
+        #btn6 {
+            margin-right: 0rem;
+        }
+        .Concerts .main-content img {
+            width: 100%;
+            min-width: 0rem;
+            margin-top: 7rem;
+        }
+        .gallary {
+            flex-direction: column;
+            margin-top: 4rem;
+        }
+        .cards {
+            max-width: 600px;
+            padding: 1rem;
+            text-align: center;
+            margin: 1rem auto;
+            border-radius: .5rem;
+        }
+        .gallary img {
+            width: 100%;
+        }
+        .news {
+            font-size: 23px;
+            margin-top: 2rem;
+            text-align: start;
+            margin-left: 0rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .subs {
+            flex-direction: column;
+        }
+        .subscribe {
+            width: 23rem;
+            height: 2.5rem;
+            border: none;
+            margin-left: 6px;
+        }
+        #btn10 {
+            margin-left: 9rem;
+            margin-top: 1rem;
+        }
+        footer {
+            flex-direction: column;
+        }
+        footer .input {
+            width: 17rem;
+        }
+        footer .input1 {
+            width: 17rem;
+        }
+        footer .icon {
+            font-size: 26px;
+            text-align: center;
+            color: #fff;
+            margin-top: 2rem;
+            line-height: 3rem;
+        }
+    }
+    
+    @media (min-width:500px) and (max-width: 767px) {
+        header {
+            background-color: #000;
+            flex-direction: column;
+        }
+        .logo {
+            text-align: center;
+        }
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .hero {
+            padding-top: 7rem;
+            flex-direction: column;
+        }
+        .hero p {
+            text-align: center;
+            padding: 0;
+        }
+        #btn3 {
+            margin-top: 1rem;
+        }
+        #btn4 {
+            margin-top: 1rem;
+        }
+        .about {
+            flex-direction: column;
+        }
+        .about .main-content img {
+            width: 80%;
+            min-width: 0rem;
+        }
+        .about p {
+            padding-left: 0rem;
+        }
+        #btn5 {
+            margin-right: 0rem;
+        }
+        .Concerts {
+            flex-direction: column;
+        }
+        .Concerts p {
+            padding-left: 0rem;
+        }
+        #btn6 {
+            margin-right: 0rem;
+        }
+        .Concerts .main-content img {
+            width: 100%;
+            min-width: 0rem;
+        }
+        .gallary {
+            flex-direction: column;
+            margin-top: 4rem;
+        }
+        .cards {
+            max-width: 600px;
+            padding: 1rem;
+            text-align: center;
+            margin: 1rem auto;
+            border-radius: .5rem;
+        }
+        .gallary img {
+            width: 100%;
+        }
+        footer {
+            flex-direction: column;
+        }
+        footer .input {
+            width: 17rem;
+        }
+        footer .input1 {
+            width: 17rem;
+        }
+        footer .icon {
+            font-size: 26px;
+            text-align: center;
+            color: #fff;
+            margin-top: 2rem;
+            line-height: 3rem;
+        }
+    }
+    
+    @media (min-width:767px) and (max-width: 992px) {
+        /* -----------header Section-------------- */
+        header {
+            background-color: #000;
+            flex-direction: column;
+        }
+        .logo {
+            text-align: center;
+        }
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        /* ---------------Hero Section-------------- */
+        .hero {
+            padding-top: 7rem;
+            flex-direction: column;
+        }
+        .hero p {
+            text-align: center;
+            padding: 0;
+        }
+        /* -----------------------About Section------------------ */
+        .about .main-content img {
+            width: 80%;
+            min-width: 20rem;
+            margin-top: 6rem;
+        }
+        .about h1 {
+            font-size: 60px;
+            display: block;
+            color: #000;
+            margin-bottom: 3rem;
+            margin-top: 5rem;
+        }
+        .about p {
+            line-height: 1.75rem;
+            color: #000;
+            font-size: 16px;
+            margin-bottom: 2rem;
+            text-align: justify;
+        }
+        #btn5 {
+            margin-right: 0rem;
+        }
+        /*-----------------display Concerts---------- --*/
+        .Concerts {
+            flex-direction: column;
+            background: #6A8;
+        }
+        .Concerts p {
+            padding-left: 0rem;
+        }
+        #btn6 {
+            margin-right: 0rem;
+        }
+        .Concerts .main-content img {
+            width: 100%;
+            max-width: 1rem;
+        }
+        /*-------------------- Gallary Section ----------*/
+        .gallary {
+            flex-direction: column;
+            margin-top: 4rem;
+            background-color: #ECECEC;
+        }
+        .cards {
+            max-width: 600px;
+            padding: 1rem;
+            text-align: center;
+            margin: 1rem auto;
+            border-radius: .5rem;
+        }
+        .gallary img {
+            width: 100%;
+        }
+    }
+    
+    @media (min-width:992px) and (max-width:1220px) {
+        .Concerts h1 {
+            font-size: 60px;
+            line-height: 4rem;
+            margin-bottom: 1rem;
+        }
+        .Concerts .main-content img {
+            width: 100%;
+            min-width: 26rem;
+        }
+        .Concerts p {
+            line-height: 1.75rem;
+            color: #333;
+            font-size: 16px;
+            text-align: justify;
+        }
+        .gallary {
+            margin-top: 4rem;
+        }
+        .cards {
+            max-width: 600px;
+            padding: 1rem;
+            text-align: center;
+            margin: 1rem auto;
+            border-radius: .5rem;
+        }
+        .gallary img {
+            width: 100%;
+        }
+        .gallary .cards p {
+            line-height: 2rem;
+            font-size: 17px;
+            margin-bottom: 2rem;
+            text-align: justify;
+        }
+    }
